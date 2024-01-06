@@ -13,10 +13,13 @@ nav .header-title .text-primary {
 
 
 /* nav style start */
+.header{
+    background: #FFF8F3;
+}
 nav {
     display: flex;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
