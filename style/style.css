@@ -27,6 +27,7 @@ nav .header-title .text-primary {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left top;
+    margin-bottom: 130px;
 }
 nav {
     display: flex;
@@ -105,3 +106,16 @@ nav li a {
     width: 400px;
 }
 /* header banner style end */
+
+
+/* about section start */
+.about .about-title{
+    text-align: center;
+    padding: 130px;
+    background: #FFF8F3;
+}
+.about .about-title p{
+    padding: 15px;
+    line-height: 27px;
+}
+/* about section end */
