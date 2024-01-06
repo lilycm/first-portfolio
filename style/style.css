@@ -9,6 +9,15 @@ nav .header-title .text-primary {
     color: #FD6E0A;
 }
 
+.primary-btn{
+    background: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
 /* common shared style end */
 
 
@@ -47,13 +56,20 @@ nav li a {
     color: rgb(10, 10, 10);
 }
 
-nav li button {
-    background: #FD6E0A;
-    border: none;
-    color: white;
-    font-size: 18px;
-    border-radius: 5px;
-    padding: 18px 35px;
-}
 
 /* nav style end */
+
+
+
+
+/* header banner style start */
+.header-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-banner .header-detail{
+    padding-left: 150px
+}
+/* header banner style end */
