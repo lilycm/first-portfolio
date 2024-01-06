@@ -1,17 +1,56 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* common shared style start */
+nav .header-title .text-primary {
+    color: #FD6E0A;
+}
+
+/* common shared style end */
+
 
 /* nav style start */
-nav{
+nav {
     display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-nav li{
+nav .header-title {
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
     list-style-type: none;
+    margin-right: 50px;
 }
+
+nav li a {
+    color: rgb(10, 10, 10);
+}
+
+nav li button {
+    background: #FD6E0A;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
 /* nav style end */
