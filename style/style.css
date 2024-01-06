@@ -1,4 +1,5 @@
-body, * {
+body,
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -9,7 +10,7 @@ nav .header-title .text-primary {
     color: #FD6E0A;
 }
 
-.primary-btn{
+.primary-btn {
     background: #FD6E0A;
     border: none;
     color: white;
@@ -18,33 +19,35 @@ nav .header-title .text-primary {
     padding: 18px 35px;
 }
 
-main{
+main {
     margin: 0 180px;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     padding: 130px;
 }
 
-.section-title h2{
+.section-title h2 {
     padding-bottom: 30px;
 }
 
-.section-title p{
-    line-height:25px;
+.section-title p {
+    line-height: 25px;
 }
+
 /* common shared style end */
 
 
 /* nav style start */
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left top;
     margin-bottom: 130px;
 }
+
 nav {
     display: flex;
     display: flex;
@@ -84,131 +87,181 @@ nav li a {
 
 
 /* header banner style start */
-.header-banner{
+.header-banner {
     padding: 120px 30px 0px 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header-banner .header-detail{
+.header-banner .header-detail {
     color: #181818;
 }
 
 
-.header-banner .header-detail h3{
+.header-banner .header-detail h3 {
     color: #181818;
     font-size: 40px;
 }
 
-.header-banner .header-detail h1{
+.header-banner .header-detail h1 {
     color: #181818;
     font-weight: bold;
     font-size: 80px;
     padding: 10px 0px 20px 0px;
 }
 
-.header-banner .header-detail p{
+.header-banner .header-detail p {
     color: #757575;
     line-height: 30px;
     padding: 10px 0px 30px 0px;
 }
 
-.header-banner .header-detail .buttons button{
+.header-banner .header-detail .buttons button {
     margin-right: 20px;
 }
 
-.header-banner img{
+.header-banner img {
     width: 400px;
 }
+
 /* header banner style end */
 
 
 /* about section start */
 
-.about{
+.about {
     background: #FFF8F3;
 }
 
 
-.about .about-title p{
+.about .about-title p {
     padding: 15px;
     line-height: 27px;
 }
 
-.about .about-detail{
+.about .about-detail {
     padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 /* about section end */
 
 
 
 /* service section start */
-.my-services{
+.my-services {
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
-    
+
 }
 
-.my-services .services{
+.my-services .services {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px;
 }
-.my-services .services img{
+
+.my-services .services img {
     padding-bottom: 30px;
 }
-.my-services .services h3{
+
+.my-services .services h3 {
     padding-bottom: 20px;
 }
 
 
-.my-services .services p{
+.my-services .services p {
     line-height: 25px;
 }
+
 /* service section end */
 
 
 
 
 /* resume section start */
-.resume-column{
+
+.resume-column {
     display: flex;
     justify-content: space-evenly;
     gap: 70px;
 }
 
-.resume-column .resume-item{
+.resume-column .resume-item {
     padding-bottom: 30px;
 
 }
 
 
-.resume-column .resume-items .resume-item h3{
+.resume-column .resume-items .resume-item h3 {
     font-size: 28px;
     padding-bottom: 30px;
 }
 
 
-.resume-column .resume-items .resume-item h5{
+.resume-column .resume-items .resume-item h5 {
     padding: 0px 0px 10px 0px;
     font-size: 24px;
 }
 
-.resume-column .resume-items .resume-item span{
+.resume-column .resume-items .resume-item span {
     font-size: 18px;
     color: #757575;
     font-weight: 700;
 }
 
-.resume-column .resume-items .resume-item p{
+.resume-column .resume-items .resume-item p {
     padding: 20px 0px 30px 0px;
 }
 
-.resume .cv-btn{
+.resume .cv-btn {
     text-align: center;
+    margin-bottom: 113px;
 }
+
 /* resume section end */
+
+
+
+/* footer section start */
+footer {
+    background: #FFF8F3;
+}
+
+
+.footer-information {
+    padding-top: 130px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+
+.footer-information .footer-info p {
+    padding: 20px 0px 30px 0px;
+}
+
+
+.footer-information .footer-info .smm-logo img {
+    margin-right: 20px;
+}
+
+.footer-information .footer-form input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.footer-information .footer-form textarea{
+    width: 100%;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+/* footer section end */
