@@ -1,4 +1,4 @@
-body {
+body, * {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -24,11 +24,15 @@ nav .header-title .text-primary {
 /* nav style start */
 .header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left top;
 }
 nav {
     display: flex;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px 200px 70px 200px;
 }
 
 
@@ -64,12 +68,40 @@ nav li a {
 
 /* header banner style start */
 .header-banner{
+    padding: 120px 30px 0px 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .header-banner .header-detail{
-    padding-left: 150px
+    color: #181818;
+}
+
+
+.header-banner .header-detail h3{
+    color: #181818;
+    font-size: 40px;
+}
+
+.header-banner .header-detail h1{
+    color: #181818;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 10px 0px 20px 0px;
+}
+
+.header-banner .header-detail p{
+    color: #757575;
+    line-height: 30px;
+    padding: 10px 0px 30px 0px;
+}
+
+.header-banner .header-detail .buttons button{
+    margin-right: 20px;
+}
+
+.header-banner img{
+    width: 400px;
 }
 /* header banner style end */
