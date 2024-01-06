@@ -18,6 +18,22 @@ nav .header-title .text-primary {
     padding: 18px 35px;
 }
 
+main{
+    margin: 0 180px;
+}
+
+.section-title{
+    text-align: center;
+    padding: 130px;
+}
+
+.section-title h2{
+    padding-bottom: 30px;
+}
+
+.section-title p{
+    line-height:25px;
+}
 /* common shared style end */
 
 
@@ -109,13 +125,27 @@ nav li a {
 
 
 /* about section start */
-.about .about-title{
-    text-align: center;
-    padding: 130px;
+
+.about{
     background: #FFF8F3;
 }
+
+
 .about .about-title p{
     padding: 15px;
     line-height: 27px;
 }
+
+.about .about-detail{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /* about section end */
+
+
+
+/* service section start */
+
+/* service section end */
