@@ -156,9 +156,10 @@ nav li a {
 
 .my-services .services{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
 }
 .my-services .services img{
-    padding: 30px 0px;
+    padding-bottom: 30px;
 }
 .my-services .services h3{
     padding-bottom: 20px;
@@ -166,7 +167,6 @@ nav li a {
 
 
 .my-services .services p{
-    padding-bottom: 30px;
     line-height: 25px;
 }
 /* service section end */
@@ -177,5 +177,38 @@ nav li a {
 /* resume section start */
 .resume-column{
     display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.resume-column .resume-item{
+    padding-bottom: 30px;
+
+}
+
+
+.resume-column .resume-items .resume-item h3{
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+
+.resume-column .resume-items .resume-item h5{
+    padding: 0px 0px 10px 0px;
+    font-size: 24px;
+}
+
+.resume-column .resume-items .resume-item span{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 700;
+}
+
+.resume-column .resume-items .resume-item p{
+    padding: 20px 0px 30px 0px;
+}
+
+.resume .cv-btn{
+    text-align: center;
 }
 /* resume section end */
